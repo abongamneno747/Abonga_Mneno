@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Abonga Mneno | Family</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVIGATION
+====================================================== -->
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+
+            <span>AM</span>
+
+            <h2>
+                Abonga Mneno
+            </h2>
+
+        </div>
+
+
+        <!-- ONLY ONE MENU BUTTON -->
+
+        <button
+            class="menu-toggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false">
+
+            <i class="fas fa-bars"></i>
+
+        </button>
+
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="about.html">
+                    About
+                </a>
+            </li>
+
+            <li>
+                <a href="family.html" class="active">
+                    Family
+                </a>
+            </li>
+
+            <li>
+                <a href="friends.html">
+                    Friends
+                </a>
+            </li>
+
+            <li>
+                <a href="contact.html">
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+
+<!-- =====================================================
+     FAMILY INTRODUCTION
+====================================================== -->
+
+<section class="gallery-hero">
+
+    <p class="small-title">
+        MY FAMILY
+    </p>
+
+
+    <h1>
+
+        Family
+        <span>Memories</span>
+
+    </h1>
+
+
+    <p>
+
+        Family is an important part of my life.
+        These pictures capture some special moments
+        and memories with my family.
+
+    </p>
+
+</section>
+
+
+
+<!-- =====================================================
+     FAMILY SLIDESHOW
+====================================================== -->
+
+<section class="slideshow-section">
+
+
+    <div class="slideshow-container">
+
+
+        <!-- IMAGE 1 -->
+
+        <div class="slide family-slide active-slide">
+
+            <img
+                src="images/21.jpeg"
+                alt="Family memory 1">
+
+        </div>
+
+
+        <!-- IMAGE 2 -->
+
+        <div class="slide family-slide">
+
+            <img
+                src="images/22.jpeg"
+                alt="Family memory 2">
+
+        </div>
+
+
+        <!-- IMAGE 3 -->
+
+        <div class="slide family-slide">
+
+            <img
+                src="images/23.jpeg"
+                alt="Family memory 3">
+
+        </div>
+
+
+        <!-- IMAGE 4 -->
+
+        <div class="slide family-slide">
+
+            <img
+                src="images/24.jpeg"
+                alt="Family memory 4">
+
+        </div>
+
+
+        <!-- IMAGE 5 -->
+
+        <div class="slide family-slide">
+
+            <img
+                src="images/26.jpeg"
+                alt="Family memory 5">
+
+        </div>
+
+
+        <!-- IMAGE 6 -->
+
+        <div class="slide family-slide">
+
+            <img
+                src="images/27.jpeg"
+                alt="Family memory 6">
+
+        </div>
+
+
+        <!-- IMAGE 7 -->
+
+        <div class="slide family-slide">
+
+            <img
+                src="images/28.jpeg"
+                alt="Family memory 7">
+
+        </div>
+
+
+        <!-- IMAGE 8 -->
+
+        <div class="slide family-slide">
+
+            <img
+                src="images/29.jpeg"
+                alt="Family memory 8">
+
+        </div>
+
+
+        <!-- IMAGE 9 -->
+
+        <div class="slide family-slide">
+
+            <img
+                src="images/30.jpeg"
+                alt="Family memory 9">
+
+        </div>
+
+
+        <!-- IMAGE 10 -->
+
+        <div class="slide family-slide">
+
+            <img
+                src="images/20.jpeg"
+                alt="Family memory 10">
+
+        </div>
+
+
+
+        <!-- PREVIOUS BUTTON -->
+
+        <button
+            class="slide-btn prev"
+            type="button"
+            onclick="changeSlide(-1, 'family-slide')"
+            aria-label="Previous family photo">
+
+            <i class="fas fa-chevron-left"></i>
+
+        </button>
+
+
+
+        <!-- NEXT BUTTON -->
+
+        <button
+            class="slide-btn next"
+            type="button"
+            onclick="changeSlide(1, 'family-slide')"
+            aria-label="Next family photo">
+
+            <i class="fas fa-chevron-right"></i>
+
+        </button>
+
+
+    </div>
+
+
+
+    <!-- =================================================
+         FAMILY DOTS
+    ================================================== -->
+
+    <div class="dots family-dots">
+
+
+        <span
+            class="dot active-dot"
+            onclick="currentSlide(1, 'family-slide')">
+        </span>
+
+
+        <span
+            class="dot"
+            onclick="currentSlide(2, 'family-slide')">
+        </span>
+
+
+        <span
+            class="dot"
+            onclick="currentSlide(3, 'family-slide')">
+        </span>
+
+
+        <span
+            class="dot"
+            onclick="currentSlide(4, 'family-slide')">
+        </span>
+
+
+        <span
+            class="dot"
+            onclick="currentSlide(5, 'family-slide')">
+        </span>
+
+
+        <span
+            class="dot"
+            onclick="currentSlide(6, 'family-slide')">
+        </span>
+
+
+        <span
+            class="dot"
+            onclick="currentSlide(7, 'family-slide')">
+        </span>
+
+
+        <span
+            class="dot"
+            onclick="currentSlide(8, 'family-slide')">
+        </span>
+
+
+        <span
+            class="dot"
+            onclick="currentSlide(9, 'family-slide')">
+        </span>
+
+
+        <span
+            class="dot"
+            onclick="currentSlide(10, 'family-slide')">
+        </span>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     FAMILY MESSAGE
+====================================================== -->
+
+<section class="gallery-message">
+
+
+    <i class="fas fa-heart"></i>
+
+
+    <h2>
+        Family Means Everything
+    </h2>
+
+
+    <p>
+
+        The love, support and memories shared
+        with family are some of the most valuable
+        parts of life.
+
+    </p>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+====================================================== -->
+
+<footer>
+
+
+    <h2>
+        Abonga Mneno
+    </h2>
+
+
+    <p>
+        AI, Data Science & Programming Student
+    </p>
+
+
+    <p class="copyright">
+
+        &copy; 2026 Abonga Mneno.
+        All Rights Reserved.
+
+    </p>
+
+
+</footer>
+
+
+
+<!-- JAVASCRIPT -->
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>

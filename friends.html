@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Abonga Mneno | Friends</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVIGATION
+====================================================== -->
+
+<header>
+
+    <nav class="navbar">
+
+
+        <!-- LOGO -->
+
+        <div class="logo">
+
+            <span>AM</span>
+
+            <h2>
+                Abonga Mneno
+            </h2>
+
+        </div>
+
+
+        <!-- ONLY ONE MENU BUTTON -->
+
+        <button
+            class="menu-toggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false">
+
+            <i class="fas fa-bars"></i>
+
+        </button>
+
+
+        <!-- NAVIGATION -->
+
+        <ul class="nav-links">
+
+
+            <li>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+            </li>
+
+
+            <li>
+
+                <a href="about.html">
+                    About
+                </a>
+
+            </li>
+
+
+            <li>
+
+                <a href="family.html">
+                    Family
+                </a>
+
+            </li>
+
+
+            <li>
+
+                <a href="friends.html" class="active">
+                    Friends
+                </a>
+
+            </li>
+
+
+
+            <li>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </li>
+
+
+        </ul>
+
+
+    </nav>
+
+</header>
+
+
+
+<!-- =====================================================
+     FRIENDS INTRODUCTION
+====================================================== -->
+
+<section class="gallery-hero">
+
+
+    <p class="small-title">
+        MY FRIENDS
+    </p>
+
+
+    <h1>
+
+        Friends &
+        <span>Memories</span>
+
+    </h1>
+
+
+    <p>
+
+        Friends make life more enjoyable.
+        This section contains some special moments,
+        experiences and memories shared with friends.
+
+    </p>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     FRIENDS SLIDESHOW
+====================================================== -->
+
+<section class="slideshow-section">
+
+
+    <div class="slideshow-container">
+
+
+        <!-- IMAGE 1 -->
+
+        <div class="slide friends-slide active-slide">
+
+            <img
+                src="images/31.jpeg"
+                alt="Friends memory 1">
+
+        </div>
+
+
+        <!-- IMAGE 2 -->
+
+        <div class="slide friends-slide">
+
+            <img
+                src="images/32.jpeg"
+                alt="Friends memory 2">
+
+        </div>
+
+
+        <!-- IMAGE 3 -->
+
+        <div class="slide friends-slide">
+
+            <img
+                src="images/33.jpeg"
+                alt="Friends memory 3">
+
+        </div>
+
+
+        <!-- IMAGE 4 -->
+
+        <div class="slide friends-slide">
+
+            <img
+                src="images/34.jpeg"
+                alt="Friends memory 4">
+
+        </div>
+
+
+        <!-- IMAGE 5 -->
+
+        <div class="slide friends-slide">
+
+            <img
+                src="images/35.jpeg"
+                alt="Friends memory 5">
+
+        </div>
+
+
+        <!-- IMAGE 6 -->
+
+        <div class="slide friends-slide">
+
+            <img
+                src="images/36.jpeg"
+                alt="Friends memory 6">
+
+        </div>
+
+
+
+        <!-- PREVIOUS -->
+
+        <button
+            class="slide-btn prev"
+            type="button"
+            onclick="changeSlide(-1, 'friends-slide')"
+            aria-label="Previous friends photo">
+
+            <i class="fas fa-chevron-left"></i>
+
+        </button>
+
+
+
+        <!-- NEXT -->
+
+        <button
+            class="slide-btn next"
+            type="button"
+            onclick="changeSlide(1, 'friends-slide')"
+            aria-label="Next friends photo">
+
+            <i class="fas fa-chevron-right"></i>
+
+        </button>
+
+
+    </div>
+
+
+
+    <!-- =================================================
+         FRIENDS DOTS
+    ================================================== -->
+
+    <div class="dots friends-dots">
+
+
+        <span
+            class="dot active-dot"
+            onclick="currentSlide(1, 'friends-slide')">
+        </span>
+
+
+        <span
+            class="dot"
+            onclick="currentSlide(2, 'friends-slide')">
+        </span>
+
+
+        <span
+            class="dot"
+            onclick="currentSlide(3, 'friends-slide')">
+        </span>
+
+
+        <span
+            class="dot"
+            onclick="currentSlide(4, 'friends-slide')">
+        </span>
+
+
+        <span
+            class="dot"
+            onclick="currentSlide(5, 'friends-slide')">
+        </span>
+
+
+        <span
+            class="dot"
+            onclick="currentSlide(6, 'friends-slide')">
+        </span>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     FRIENDS MESSAGE
+====================================================== -->
+
+<section class="gallery-message">
+
+
+    <i class="fas fa-users"></i>
+
+
+    <h2>
+        Good Friends, Great Memories
+    </h2>
+
+
+    <p>
+
+        Friendship creates memories that remain
+        special throughout life.
+
+    </p>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+====================================================== -->
+
+<footer>
+
+
+    <h2>
+        Abonga Mneno
+    </h2>
+
+
+    <p>
+        AI, Data Science & Programming Student
+    </p>
+
+
+    <p class="copyright">
+
+        &copy; 2026 Abonga Mneno.
+        All Rights Reserved.
+
+    </p>
+
+
+</footer>
+
+
+
+<!-- JAVASCRIPT -->
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
